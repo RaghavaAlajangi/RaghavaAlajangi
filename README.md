@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Raghava Alajangi</h1>
-<h3 align="center">Data Scientist / Machine Learning Engineer for Medical diagnostic in Erlangen, Germany</h3>
+<h3 align="center">Data Scientist / Machine Learning Engineer for Medical diagnostics in Erlangen, Germany</h3>
 
 - 🌱 I’m currently learning **MLOps and Cloud Technologies**
 
