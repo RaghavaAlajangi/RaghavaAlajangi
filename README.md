@@ -42,8 +42,11 @@
 <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="bash" width="40" height="40"/></a>
 
 
+  
 <!--- MOST USED LANGUAGES --->
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=raghavaalajangi&show_icons=true&locale=en&layout=compact" alt="raghavaalajangi" /></p>
+  
+  
 <!--- GITHUB STATUS --->
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=raghavaalajangi&show_icons=true&locale=en" alt="raghavaalajangi" /></p>
 
