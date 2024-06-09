@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Raghava Alajangi</h1>
-<h3 align="center">Data Scientist / Machine Learning Engineer for Medical diagnostics in Erlangen, Germany</h3>
+<h3 align="center">Data Scientist / Machine Learning Engineer for Medical Diagnostics in Erlangen, Germany</h3>
 
 - 🌱 I’m currently learning **MLOps and Cloud Technologies**
 
@@ -41,7 +41,7 @@
 <!--- BASH --->
 <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="bash" width="40" height="40"/></a>
 
-#### Development Stuffs:
+#### Development Stuff:
 <b>⚡ Github Stats</b>
 <p float="left">
 <img height="150em" src="https://github-readme-stats.vercel.app/api?username=raghavaalajangi&show_icons=true&locale=en"/>
