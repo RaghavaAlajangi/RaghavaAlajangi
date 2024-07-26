@@ -44,6 +44,6 @@
 #### Development Stuff:
 <b>⚡ Github Stats</b>
 <p float="left">
-<img height="150em" src="https://github-readme-stats.vercel.app/api?username=raghavaalajangi&show_icons=true&locale=en"/>
-<img height="150em" src="https://github-readme-stats.vercel.app/api/top-langs?username=raghavaalajangi&show_icons=true&locale=en&layout=compact"/> 
+<img height="150em" src="https://github-readme-stats.vercel.app/api?username=raghavaalajangi&show_icons=true&&theme=radical&locale=en"/>
+<img height="150em" src="https://github-readme-stats.vercel.app/api/top-langs?username=raghavaalajangi&show_icons=true&theme=radical&locale=en&layout=compact"/> 
 </p>
