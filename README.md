@@ -1,5 +1,6 @@
 # 💫 About Me:
-🔭 I am a Machine Learning Engineer passionate about building reproducible, scalable ML models and seamlessly deploying them into production.<br>🌐 Driven by curiosity, I continually explore cutting-edge cloud technologies and innovative solutions to tackle the complex technical challenges faced by data scientists and ML engineers.
+🔭 I am a Machine Learning Engineer passionate about building data-driven applications and deploying reproducible, scalable ML models to production.  
+💡 I am driven by curiosity to explore cloud technologies, MLOps methodologies, and innovative solutions to the complex challenges faced by data scientists and ML engineers.
 
 
 ## 🌐 Socials:
