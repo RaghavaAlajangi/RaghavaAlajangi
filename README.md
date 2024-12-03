@@ -18,7 +18,7 @@
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
 ![nVIDIA](https://img.shields.io/badge/cuda-000000.svg?style=for-the-badge&logo=nVIDIA&logoColor=green)
 
-### MLOps:
+#### MLOps:
 ![MLOps](https://img.shields.io/badge/mlops-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white) 
 ![mlflow](https://img.shields.io/badge/mlflow-%23039BE5.svg?style=for-the-badge&logo=mlflow&logoColor=white)
 
