@@ -52,7 +52,7 @@
 
 # 📊 GitHub Stats:
 ![](https://github-readme-stats.vercel.app/api?username=RaghavaAlajangi&theme=radical&hide_border=false&include_all_commits=true&count_private=true)
-![](https://github-readme-streak-stats.vercel.app/?user=RaghavaAlajangi&theme=radical&hide_border=false)
+![](https://github-readme-streak-stats.herokuapp.com/?user=RaghavaAlajangi&theme=radical&hide_border=false)
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=RaghavaAlajangi&show_icons=true&theme=radical&hide_border=false&include_all_commits=true&count_private=true&layout=compact&hide=jupyter%20notebook,css)
 
 
