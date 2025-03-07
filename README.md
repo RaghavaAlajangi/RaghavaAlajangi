@@ -1,6 +1,6 @@
 <h1 align="center">Hi there, I am Raghava Alajangi 👋</h1>
 <p align="center">
-AI/ML Engineer | MLOps | Azure Certified | Full-Stack Developer 
+AI/ML Engineer | MLOps | Azure Certified | Data Science 
 </p>
 
 <p align="center">
