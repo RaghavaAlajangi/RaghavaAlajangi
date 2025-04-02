@@ -21,12 +21,11 @@ AI/ML Engineer | MLOps | Azure Certified | Data Science
 🔹 AI/ML Engineer with **3+ years** of experience in **Machine Learning, MLOps, and HPC**.  
 🔹 Passionate about **AI-driven automation, cloud computing, and scalable AI architectures**.  
 🔹 Experienced in **research-driven AI development**, **MLOps pipelines**, and **full-stack web applications**.  
-🔹 Actively contributing to **open-source** projects by maintaining **high code standards (PEP8)**, **modular**, and **semantic versioning**   
-🔹 Currently learning **React (Web & Native)** for building AI-driven applications.  
+🔹 Actively contributing to **open-source** projects by maintaining **OOPS principles**, **high code standards (PEP8)**, and **semantic versioning**   
 
 ---
 
-## 💡 What I Know   
+## 💡 What I Know      
 🔹 **Machine Learning & Deep Learning** – Computer Vision, AI Model Training, Optimization  
 🔹 **MLOps & AI Infrastructure** – MLflow, DVC, CI/CD, Model Tracking, AI Pipelines   
 🔹 **Cloud & DevOps** – Azure ML, Docker, GitLab CI/CD, GitHub Actions      
@@ -36,15 +35,15 @@ AI/ML Engineer | MLOps | Azure Certified | Data Science
 
 ---
 
-## 🔥 What I am Actively Learning   
-🔹 **Cloud Technologies** – Expanding skills in **Azure DevOps**    
-🔹 **Infrastructure as Code (IaC) & DevOps** – Strengthening **Kubernetes** and **Terraform**    
-🔹 **Optimized AI Pipelines** – Improving AI inference speed on HPC clusters & Cloud     
+## 🔥 What I am Actively Learning         
+🔹 **LLM Development & API Deployment** – Fintuning LLMs, creating RAG-based LLM chatbots for specific use cases     
+🔹 **AI Model Research** – Working on forecasting models, agent-based models, and ranking models      
+🔹 **Cloud Technologies** – Expanding skills in **Azure DevOps**      
+🔹 **Infrastructure as Code (IaC) & DevOps** – Strengthening **Kubernetes** and **Terraform**      
+🔹 **Optimized AI Pipelines** – Improving AI inference speed on HPC clusters & Cloud       
 🔹 **Scalable AI Deployment** – Working with Docker, Kubernetes, and CI/CD    
 🔹 **Large-Scale AI & MLOps** – CI/CD for ML, Model Monitoring, Large-scale AI Training   
-🔹 **Web & GUI Development** – Exploring Django, React, Vue.js, PyQt   
-🔹 **LLM Development & API Deployment** – Creating LLM-based chatbot applications   
-🔹 **AI Model Research** – Working on forecasting models, agent-based models, and ranking models   
+🔹 **Web & GUI Development** – Exploring **React (Web & Native)**, Vue.js, PyQt    
 
 ---
 
