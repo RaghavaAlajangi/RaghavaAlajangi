@@ -1,6 +1,6 @@
 <h1 align="center">Hi there, I am Raghava Alajangi 👋</h1>
 <p align="center">
-AI/ML Engineer | MLOps | Azure Certified | Data Science 
+AI/ML Engineer | MLOps | Azure Certified | Computer Vision 
 </p>
 
 <p align="center">
@@ -19,13 +19,15 @@ AI/ML Engineer | MLOps | Azure Certified | Data Science
 
 ## 🚀 About Me
 🔹 AI/ML Engineer with **3+ years** of experience in **Machine Learning, MLOps, and HPC**.  
+🔹 Eager to explore and tackle problems across **image & video processing**, **Computer Vision**, **GANs**, **LLMs**, **AI Agents**, and data-driven analytics.   
 🔹 Passionate about **AI-driven automation, cloud computing, and scalable AI architectures**.  
 🔹 Experienced in **research-driven AI development**, **MLOps pipelines**, and **full-stack web applications**.  
 🔹 Actively contributing to **open-source** projects by maintaining **OOPS principles**, **high code standards (PEP8)**, and **semantic versioning**   
 
 ---
 
-## 💡 What I Know      
+## 💡 What I Know   
+🔹 **Programming** - Pathon, C++  
 🔹 **Machine Learning & Deep Learning** – Computer Vision, AI Model Training, Optimization  
 🔹 **MLOps & AI Infrastructure** – MLflow, DVC, CI/CD, Model Tracking, AI Pipelines   
 🔹 **Cloud & DevOps** – Azure ML, Docker, GitLab CI/CD, GitHub Actions      
