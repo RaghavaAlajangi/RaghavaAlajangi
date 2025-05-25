@@ -27,7 +27,7 @@ AI/ML Engineer | MLOps | Azure Certified | Computer Vision
 ---
 
 ## 💡 What I Know   
-🔹 **Programming** - Pathon, C++  
+🔹 **Programming** - Python, C++  
 🔹 **Machine Learning & Deep Learning** – Computer Vision, AI Model Training, Optimization  
 🔹 **MLOps & AI Infrastructure** – MLflow, DVC, CI/CD, Model Tracking, AI Pipelines   
 🔹 **Cloud & DevOps** – Azure ML, Docker, GitLab CI/CD, GitHub Actions      
