@@ -18,7 +18,7 @@ AI/ML Engineer | MLOps | Azure Certified | Computer Vision
 ---
 
 ## 🚀 About Me
-🔹 AI/ML Engineer with **3+ years** of experience in **Machine Learning, MLOps, and HPC**.  
+🔹 AI/ML Engineer with **3.5+ years** of experience in **Machine Learning, MLOps, and HPC**.  
 🔹 Eager to tackle problems across **image & video processing**, **Computer Vision**, **GANs**, **LLMs**, **AI Agents**, and data-driven analytics.   
 🔹 Passionate about **AI-driven automation, cloud computing, and scalable AI architectures**.  
 🔹 Experienced in **research-driven AI development**, **MLOps pipelines**, and **full-stack web applications**.  
