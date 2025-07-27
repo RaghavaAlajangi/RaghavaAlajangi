@@ -10,7 +10,7 @@ AI/ML Engineer | MLOps | Azure Certified | Computer Vision
   <a href="mailto:raghava.alajangi95@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-Contact-informational?style=for-the-badge&logo=gmail" />  
   </a>
-  <a href="https://yourportfolio.com">
+  <a href="https://raghavaalajangi.github.io/RaghavaAlajangi/">
     <img src="https://img.shields.io/badge/Portfolio-View-red?style=for-the-badge&logo=vercel" />
   </a>
 </p>
