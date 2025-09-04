@@ -1,12 +1,193 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Personal Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raghava Alajangi | AI/ML Engineer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #0d1117;
+            color: #c9d1d9;
+        }
+        .container {
+            max-width: 1200px;
+        }
+        .card {
+            background-color: #161b22;
+            border-color: #30363d;
+        }
+        .text-primary {
+            color: #58a6ff;
+        }
+        .text-secondary {
+            color: #8b949e;
+        }
+    </style>
 </head>
-<body>
+<body class="bg-gray-900 text-gray-300 min-h-screen p-6 sm:p-10 flex flex-col items-center">
 
-    <h1>Welcome to my website!</h1>
-    <p>This is my new website created with HTML.</p>
+    <div class="container mx-auto">
+        <!-- Header Section -->
+        <header class="text-center py-10 sm:py-16">
+            <div class="flex flex-col items-center">
+                <img src="https://avatars.githubusercontent.com/u/41556942?v=4" alt="Raghava Alajangi" class="w-32 h-32 rounded-full border-4 border-gray-600 mb-4 shadow-lg">
+                <h1 class="text-4xl sm:text-5xl font-extrabold text-white mb-2">Raghava Alajangi</h1>
+                <p class="text-xl sm:text-2xl font-light text-secondary">AI/ML Engineer | Full-Stack ML Systems | MLOps</p>
+                <div class="mt-4 flex space-x-4 justify-center">
+                    <a href="https://www.linkedin.com/in/raghavaalajangi" target="_blank" class="text-secondary hover:text-blue-500 transition-colors duration-300">
+                        <i class="fab fa-linkedin fa-2x"></i>
+                    </a>
+                    <a href="https://github.com/RaghavaAlajangi" target="_blank" class="text-secondary hover:text-white transition-colors duration-300">
+                        <i class="fab fa-github fa-2x"></i>
+                    </a>
+                    <a href="mailto:raghava.alajangi95@gmail.com" class="text-secondary hover:text-red-500 transition-colors duration-300">
+                        <i class="fas fa-envelope fa-2x"></i>
+                    </a>
+                </div>
+            </div>
+        </header>
 
+        <!-- Main Content -->
+        <main class="space-y-12">
+            <!-- About Section -->
+            <section id="about" class="card rounded-2xl p-6 sm:p-8 border border-gray-800 shadow-md">
+                <h2 class="text-2xl font-bold text-white mb-4">Summary</h2>
+                <p class="text-secondary leading-relaxed">
+                    I am an AI/ML Engineer with 3.5+ years of experience at the Max Planck Institute, where I build and deploy machine learning systems that drive scientific and medical breakthroughs. My work combines deep learning, MLOps, and software engineering to turn research ideas into production-grade tools used daily by researchers and medical experts.
+                    <br><br>
+                    At Max Planck, I led the integration of deep learning into medical diagnostic workflows, replacing legacy image segmentation with state-of-the-art U-Net and Mask R-CNN models—improving vital cell type detection by 80% and resulting in a published paper in cytometry.
+                    <br><br>
+                    To support large-scale experimentation and reproducibility, I engineered a complete MLOps platform using MLflow, DVC, GitLab CI/CD, and HPC clusters. I also built a web-based interface that allows researchers to process large datasets via SLURM on HPC, eliminating manual workflows and accelerating collaboration across the team.
+                    <br><br>
+                    Recently, I developed and deployed an internal RAG-based LLM chatbot integrated into our Matrix communication platform, enabling researchers to query internal docs, code, and scientific literature with natural language—improving knowledge access and reducing time spent searching.
+                    <br><br>
+                    Beyond ML, I contribute to the core open-source libraries used in our lab (dclab, shapeout2, dcor), maintain Docker-based CI pipelines, and serve as the team’s IT and software lead—resolving issues, implementing features, and ensuring high-quality development practices.
+                    <br><br>
+                    I am passionate about building systems that combine AI, automation, and reproducibility—especially in healthcare and research environments. My goal is to continue bridging the gap between ML research and production deployment in impactful domains.
+                </p>
+            </section>
+
+            <!-- Skills & Languages Section -->
+            <section id="skills" class="card rounded-2xl p-6 sm:p-8 border border-gray-800 shadow-md">
+                <h2 class="text-2xl font-bold text-white mb-4">Skills & Languages</h2>
+                <div class="flex flex-wrap gap-4">
+                    <div class="w-full md:w-1/2">
+                        <h3 class="text-lg font-semibold text-primary mb-2">Top Skills</h3>
+                        <div class="flex flex-wrap gap-3">
+                            <span class="bg-gray-800 text-primary text-sm font-medium px-4 py-1.5 rounded-full border border-blue-500">LangChain</span>
+                            <span class="bg-gray-800 text-primary text-sm font-medium px-4 py-1.5 rounded-full border border-blue-500">FastAPI</span>
+                            <span class="bg-gray-800 text-primary text-sm font-medium px-4 py-1.5 rounded-full border border-blue-500">SLURM</span>
+                            <span class="bg-gray-800 text-primary text-sm font-medium px-4 py-1.5 rounded-full border border-blue-500">MLOps</span>
+                            <span class="bg-gray-800 text-primary text-sm font-medium px-4 py-1.5 rounded-full border border-blue-500">Python</span>
+                            <span class="bg-gray-800 text-primary text-sm font-medium px-4 py-1.5 rounded-full border border-blue-500">Computer Vision</span>
+                            <span class="bg-gray-800 text-primary text-sm font-medium px-4 py-1.5 rounded-full border border-blue-500">LLM + RAG</span>
+                            <span class="bg-gray-800 text-primary text-sm font-medium px-4 py-1.5 rounded-full border border-blue-500">Docker</span>
+                            <span class="bg-gray-800 text-primary text-sm font-medium px-4 py-1.5 rounded-full border border-blue-500">GitLab CI/CD</span>
+                        </div>
+                    </div>
+                    <div class="w-full md:w-1/2">
+                        <h3 class="text-lg font-semibold text-primary mb-2">Languages</h3>
+                        <div class="flex flex-wrap gap-3">
+                            <span class="bg-gray-800 text-primary text-sm font-medium px-4 py-1.5 rounded-full border border-blue-500">English</span>
+                            <span class="bg-gray-800 text-primary text-sm font-medium px-4 py-1.5 rounded-full border border-blue-500">German</span>
+                            <span class="bg-gray-800 text-primary text-sm font-medium px-4 py-1.5 rounded-full border border-blue-500">Telugu</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Certifications & Publications Section -->
+            <section id="certs-pubs" class="card rounded-2xl p-6 sm:p-8 border border-gray-800 shadow-md">
+                <h2 class="text-2xl font-bold text-white mb-4">Certifications & Publications</h2>
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div>
+                        <h3 class="text-lg font-semibold text-primary mb-2">Certifications</h3>
+                        <ul class="list-disc list-inside text-secondary space-y-1">
+                            <li>Introduction to Machine Learning in Production</li>
+                            <li>Exploratory Data Analysis with Seaborn</li>
+                            <li>Fundamentals of AWS</li>
+                            <li>Sequence Models</li>
+                            <li>Iterative Tools for Data Scientists and Analysts (MLOps)</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-semibold text-primary mb-2">Publications</h3>
+                        <ul class="list-disc list-inside text-secondary space-y-1">
+                            <li>Small U-Net for Fast and Reliable Segmentation in Imaging Flow Cytometry</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Experience Section -->
+            <section id="experience" class="card rounded-2xl p-6 sm:p-8 border border-gray-800 shadow-md">
+                <h2 class="text-2xl font-bold text-white mb-4">Experience</h2>
+                <div class="space-y-8">
+                    <div class="relative pl-6">
+                        <div class="absolute w-2 h-2 rounded-full bg-blue-500 left-0 top-2"></div>
+                        <h3 class="text-xl font-semibold text-white">AI/ML Engineer - Medical Diagnostics, Max Planck Institute</h3>
+                        <p class="text-secondary text-sm italic">March 2022 - Present (3 years 7 months)</p>
+                        <ul class="list-disc list-inside mt-2 text-secondary space-y-1">
+                            <li>Replaced classical image segmentation with U-Net & Mask R-CNN in diagnostic workflows, boosting vital cell detection by 80%; published in cytometry journal.</li>
+                            <li>Designed and deployed ML models into medical software, including dataset creation, annotation, training, evaluation, and production integration.</li>
+                            <li>Built a complete MLOps pipeline using MLflow, DVC, Docker, GitLab CI/CD, and CML on HPC clusters, enabling reproducible and automated model training.</li>
+                            <li>Developed a web app to process large datasets via SLURM job submission — now used by 10+ researchers daily, solving redundant processing issues.</li>
+                            <li>Built an internal RAG assistant with FastAPI, LangChain, OpenAPI, DeepSeek LLM, and Qdrant; deployed as a Matrix-nio chatbot for document/code retrieval.</li>
+                            <li>Contributed to open-source research tools (dclab, dcor, shapeout2); implemented features, bug fixes, Docker-based CI, and TDD.</li>
+                            <li>Serve as the team’s IT & software lead, resolving issues, debugging, implement new features, and maintaining code quality across core tools.</li>
+                        </ul>
+                    </div>
+                    <div class="relative pl-6">
+                        <div class="absolute w-2 h-2 rounded-full bg-blue-500 left-0 top-2"></div>
+                        <h3 class="text-xl font-semibold text-white">Master's Thesis Student, Bosch</h3>
+                        <p class="text-secondary text-sm italic">February 2021 - August 2021 (7 months)</p>
+                        <ul class="list-disc list-inside mt-2 text-secondary space-y-1">
+                            <li>Built end-to-end ML pipeline to detect anomalies in laser welding using image + sensor data.</li>
+                            <li>Trained CNN, U-Net, and transformer-based models with hyperparameter tuning and transfer learning.</li>
+                            <li>Developed semi-automated annotation tool for dataset creation and model validation.</li>
+                            <li>Deployed and tested the ML model via a web interface in a near-production setup on Jetson Nano.</li>
+                        </ul>
+                    </div>
+                    <div class="relative pl-6">
+                        <div class="absolute w-2 h-2 rounded-full bg-blue-500 left-0 top-2"></div>
+                        <h3 class="text-xl font-semibold text-white">Deep Learning and Computer Vision Intern, Bosch</h3>
+                        <p class="text-secondary text-sm italic">June 2020 - November 2020 (6 months)</p>
+                        <ul class="list-disc list-inside mt-2 text-secondary space-y-1">
+                            <li>Developed an AI prototype for automating laser weld quality checks using U-Net and CNN models for segmentation, classification, and defect detection.</li>
+                            <li>Applied graph analysis and network-based algorithms to extract industrial-grade measurements from weld images.</li>
+                            <li>Created and annotated datasets; built a Flask web app to visualize predictions and allow human QA review.</li>
+                            <li>Deployed the app with Docker and presented to production teams for pilot testing.</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Education Section -->
+            <section id="education" class="card rounded-2xl p-6 sm:p-8 border border-gray-800 shadow-md">
+                <h2 class="text-2xl font-bold text-white mb-4">Education</h2>
+                <div class="space-y-4">
+                    <div class="relative pl-6">
+                        <div class="absolute w-2 h-2 rounded-full bg-blue-500 left-0 top-2"></div>
+                        <h3 class="text-lg font-semibold text-white">Ostbayerische Technische Hochschule Regensburg</h3>
+                        <p class="text-secondary text-sm italic">Mater of Engineering (M.Eng.), Electrical and Microsystems Engineering</p>
+                        <p class="text-gray-500 text-xs mt-1">October 2018 - February 2022</p>
+                    </div>
+                    <div class="relative pl-6">
+                        <div class="absolute w-2 h-2 rounded-full bg-blue-500 left-0 top-2"></div>
+                        <h3 class="text-lg font-semibold text-white">Andhra University, Visakhapatnam</h3>
+                        <p class="text-secondary text-sm italic">Bachelor of Engineering (B.E.), Electrical and Electronics Engineering</p>
+                        <p class="text-gray-500 text-xs mt-1">2012 - 2016</p>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+    </div>
 </body>
 </html>
