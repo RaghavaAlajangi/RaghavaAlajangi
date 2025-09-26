@@ -15,56 +15,93 @@
             background-color: #0d1117;
             color: #c9d1d9;
         }
-        .container {
-            max-width: 1200px;
-        }
-        .card {
-            background-color: #161b22;
-            border-color: #30363d;
-        }
         .text-primary {
             color: #58a6ff;
         }
         .text-secondary {
             color: #8b949e;
         }
+        .card {
+            background-color: #161b22;
+            border-color: #30363d;
+        }
+        .active-tab {
+            background-color: #21262d;
+            border-left-color: #58a6ff;
+        }
+        @media (max-width: 768px) {
+            .sidebar {
+                position: relative;
+                width: 100%;
+                border-right: none;
+                border-bottom: 1px solid #30363d;
+            }
+            .main-content {
+                padding-top: 2rem;
+            }
+        }
     </style>
 </head>
-<body class="bg-gray-900 text-gray-300 min-h-screen p-6 sm:p-10 flex flex-col items-center">
+<body class="min-h-screen flex flex-col md:flex-row">
 
-    <div class="container mx-auto">
-        <!-- Header Section -->
-        <header class="text-center py-10 sm:py-16">
-            <div class="flex flex-col items-center">
-                <img src="https://avatars.githubusercontent.com/u/41556942?v=4" alt="Raghava Alajangi" class="w-32 h-32 rounded-full border-4 border-gray-600 mb-4 shadow-lg">
-                <h1 class="text-4xl sm:text-5xl font-extrabold text-white mb-2">Raghava Alajangi</h1>
-                <p class="text-xl sm:text-2xl font-light text-secondary">AI/ML Engineer | Full-Stack ML Systems | MLOps | LMM + RAG</p>
-                <div class="mt-4 flex space-x-4 justify-center">
-                    <a href="https://www.linkedin.com/in/raghavaalajangi" target="_blank" class="text-secondary hover:text-blue-500 transition-colors duration-300">
-                        <i class="fab fa-linkedin fa-2x"></i>
-                    </a>
-                    <a href="https://github.com/RaghavaAlajangi" target="_blank" class="text-secondary hover:text-white transition-colors duration-300">
-                        <i class="fab fa-github fa-2x"></i>
-                    </a>
-                    <a href="mailto:raghava.alajangi95@gmail.com" class="text-secondary hover:text-red-500 transition-colors duration-300">
-                        <i class="fas fa-envelope fa-2x"></i>
-                    </a>
-                </div>
-            </div>
-        </header>
+    <!-- Left Sidebar Column -->
+    <aside class="sidebar bg-[#0d1117] text-gray-300 w-full md:w-80 flex flex-col items-center p-6 md:p-8 border-r border-gray-800">
+        <!-- Profile Header -->
+        <div class="flex flex-col items-center mb-6">
+            <img src="https://avatars.githubusercontent.com/u/41556942?v=4" alt="Raghava Alajangi" class="w-28 h-28 rounded-full border-4 border-gray-600 mb-4 shadow-lg">
+            <h1 class="text-3xl font-extrabold text-white text-center">Raghava Alajangi</h1>
+            <p class="text-md font-light text-secondary text-center mt-1">AI/ML Engineer</p>
+        </div>
 
-        <!-- Main Content -->
-        <main class="space-y-12">
-            <!-- About Section -->
-            <section id="about" class="card rounded-2xl p-6 sm:p-8 border border-gray-800 shadow-md">
+        <!-- Social Icons -->
+        <div class="flex space-x-4 justify-center mb-8">
+            <a href="https://www.linkedin.com/in/raghavaalajangi" target="_blank" class="text-secondary hover:text-blue-500 transition-colors duration-300">
+                <i class="fab fa-linkedin fa-lg"></i>
+            </a>
+            <a href="https://github.com/RaghavaAlajangi" target="_blank" class="text-secondary hover:text-white transition-colors duration-300">
+                <i class="fab fa-github fa-lg"></i>
+            </a>
+            <a href="mailto:raghava.alajangi95@gmail.com" class="text-secondary hover:text-red-500 transition-colors duration-300">
+                <i class="fas fa-envelope fa-lg"></i>
+            </a>
+        </div>
+
+        <!-- Navigation Tabs -->
+        <nav class="w-full flex flex-col space-y-2">
+            <button class="tab-btn bg-gray-800 text-gray-300 px-4 py-2 rounded-lg font-medium hover:bg-gray-700 transition-colors duration-200 text-left" data-tab="summary">
+                <i class="fas fa-user mr-2"></i>Summary
+            </button>
+            <button class="tab-btn bg-gray-800 text-gray-300 px-4 py-2 rounded-lg font-medium hover:bg-gray-700 transition-colors duration-200 text-left" data-tab="skills">
+                <i class="fas fa-brain mr-2"></i>Skills & Languages
+            </button>
+            <button class="tab-btn bg-gray-800 text-gray-300 px-4 py-2 rounded-lg font-medium hover:bg-gray-700 transition-colors duration-200 text-left" data-tab="certs">
+                <i class="fas fa-award mr-2"></i>Certifications & Publications
+            </button>
+            <button class="tab-btn bg-gray-800 text-gray-300 px-4 py-2 rounded-lg font-medium hover:bg-gray-700 transition-colors duration-200 text-left" data-tab="experience">
+                <i class="fas fa-briefcase mr-2"></i>Experience
+            </button>
+            <button class="tab-btn active-tab px-4 py-2 rounded-lg font-medium transition-colors duration-200 text-left" data-tab="projects">
+                <i class="fas fa-project-diagram mr-2"></i>Projects
+            </button>
+            <button class="tab-btn bg-gray-800 text-gray-300 px-4 py-2 rounded-lg font-medium hover:bg-gray-700 transition-colors duration-200 text-left" data-tab="education">
+                <i class="fas fa-graduation-cap mr-2"></i>Education
+            </button>
+        </nav>
+    </aside>
+
+    <!-- Right Content Column -->
+    <main class="main-content flex-grow p-6 sm:p-10 space-y-12 overflow-y-auto">
+        <div id="summary" class="tab-content hidden">
+            <section class="card rounded-2xl p-6 sm:p-8 border border-gray-800 shadow-md">
                 <h2 class="text-2xl font-bold text-white mb-4">Summary</h2>
                 <p class="text-secondary leading-relaxed">
                     I am an AI/ML Engineer with 3.5+ years of experience building and deploying machine learning systems for scientific and medical breakthroughs. At the Max Planck Institute, my work combines deep learning, MLOps, and software engineering to turn research ideas into production-grade tools. I am passionate about bridging the gap between ML research and impactful production deployment, especially in healthcare and research environments.
                 </p>
             </section>
+        </div>
 
-            <!-- Skills & Languages Section -->
-            <section id="skills" class="card rounded-2xl p-6 sm:p-8 border border-gray-800 shadow-md">
+        <div id="skills" class="tab-content hidden">
+            <section class="card rounded-2xl p-6 sm:p-8 border border-gray-800 shadow-md">
                 <h2 class="text-2xl font-bold text-white mb-4">Skills & Languages</h2>
                 <div class="flex flex-wrap gap-4">
                     <div class="w-full">
@@ -75,24 +112,20 @@
                             <span class="bg-gray-800 text-primary text-sm font-medium px-4 py-1.5 rounded-full border border-blue-500">Deep Learning</span>
                             <span class="bg-gray-800 text-primary text-sm font-medium px-4 py-1.5 rounded-full border border-blue-500">Computer Vision</span>
                             <span class="bg-gray-800 text-primary text-sm font-medium px-4 py-1.5 rounded-full border border-blue-500">Scikit-Learn</span>
-                            
                             <span class="bg-gray-800 text-primary text-sm font-medium px-4 py-1.5 rounded-full border border-blue-500">MLOps</span>
                             <span class="bg-gray-800 text-primary text-sm font-medium px-4 py-1.5 rounded-full border border-blue-500">DVC</span>
                             <span class="bg-gray-800 text-primary text-sm font-medium px-4 py-1.5 rounded-full border border-blue-500">Docker</span>
                             <span class="bg-gray-800 text-primary text-sm font-medium px-4 py-1.5 rounded-full border border-blue-500">Azure ML & DevOps</span>
                             <span class="bg-gray-800 text-primary text-sm font-medium px-4 py-1.5 rounded-full border border-blue-500">MLflow</span>
                             <span class="bg-gray-800 text-primary text-sm font-medium px-4 py-1.5 rounded-full border border-blue-500">GitLab CI/CD</span>
-                            
                             <span class="bg-gray-800 text-primary text-sm font-medium px-4 py-1.5 rounded-full border border-blue-500">LangChain</span>
                             <span class="bg-gray-800 text-primary text-sm font-medium px-4 py-1.5 rounded-full border border-blue-500">LLM + RAG</span>
                             <span class="bg-gray-800 text-primary text-sm font-medium px-4 py-1.5 rounded-full border border-blue-500">OpenAI API</span>
                             <span class="bg-gray-800 text-primary text-sm font-medium px-4 py-1.5 rounded-full border border-blue-500">Qdrant</span>
-                            
                             <span class="bg-gray-800 text-primary text-sm font-medium px-4 py-1.5 rounded-full border border-blue-500">Dash</span>
                             <span class="bg-gray-800 text-primary text-sm font-medium px-4 py-1.5 rounded-full border border-blue-500">FastAPI</span>
                             <span class="bg-gray-800 text-primary text-sm font-medium px-4 py-1.5 rounded-full border border-blue-500">S3</span>
                             <span class="bg-gray-800 text-primary text-sm font-medium px-4 py-1.5 rounded-full border border-blue-500">PostgreSQL</span>
-
                             <span class="bg-gray-800 text-primary text-sm font-medium px-4 py-1.5 rounded-full border border-blue-500">HPC</span>
                             <span class="bg-gray-800 text-primary text-sm font-medium px-4 py-1.5 rounded-full border border-blue-500">SLURM</span>
                             <span class="bg-gray-800 text-primary text-sm font-medium px-4 py-1.5 rounded-full border border-blue-500">Linux</span>
@@ -108,9 +141,10 @@
                     </div>
                 </div>
             </section>
+        </div>
 
-            <!-- Certifications & Publications Section -->
-            <section id="certs-pubs" class="card rounded-2xl p-6 sm:p-8 border border-gray-800 shadow-md">
+        <div id="certs" class="tab-content hidden">
+            <section class="card rounded-2xl p-6 sm:p-8 border border-gray-800 shadow-md">
                 <h2 class="text-2xl font-bold text-white mb-4">Certifications & Publications</h2>
                 <div class="grid md:grid-cols-2 gap-6">
                     <div>
@@ -122,7 +156,6 @@
                             <li>Introduction to Machine Learning in Production - Coursera</li>
                             <li>Fundamentals of AWS - AWS</li>
                             <li>Deep Learning Specialization - Coursera</li>
-                            
                             <li>Iterative Tools for Data Scientists and Analysts (MLOps)</li>
                         </ul>
                     </div>
@@ -134,13 +167,12 @@
                     </div>
                 </div>
             </section>
+        </div>
 
-
-            <!-- Projects Section -->
-            <section id="projects" class="card rounded-2xl p-6 sm:p-8 border border-gray-800 shadow-md">
+        <div id="projects" class="tab-content space-y-12">
+            <section class="card rounded-2xl p-6 sm:p-8 border border-gray-800 shadow-md">
                 <h2 class="text-2xl font-bold text-white mb-4">Featured Projects</h2>
                 <div class="grid md:grid-cols-2 gap-6">
-                    <!-- Project 1 -->
                     <div class="bg-gray-800 rounded-xl p-6 border border-gray-700 hover:border-blue-500 transition-colors duration-300">
                         <h3 class="text-xl font-semibold text-white mb-2">Internal RAG Chatbot</h3>
                         <p class="text-secondary mb-3">
@@ -151,7 +183,6 @@
                             <i class="fab fa-github mr-1"></i> View on GitHub
                         </a>
                     </div>
-                    <!-- Project 2 -->
                     <div class="bg-gray-800 rounded-xl p-6 border border-gray-700 hover:border-blue-500 transition-colors duration-300">
                         <h3 class="text-xl font-semibold text-white mb-2">Production Dashboard for ML deployment </h3>
                         <p class="text-secondary mb-3">
@@ -162,7 +193,6 @@
                             <i class="fab fa-github mr-1"></i> View on GitHub
                         </a>
                     </div>
-                    <!-- Project 3 -->
                     <div class="bg-gray-800 rounded-xl p-6 border border-gray-700 hover:border-blue-500 transition-colors duration-300">
                         <h3 class="text-xl font-semibold text-white mb-2">Azure 3D Digital Twin for Industrial Robot</h3>
                         <p class="text-secondary mb-3">
@@ -173,7 +203,6 @@
                             <i class="fab fa-github mr-1"></i> View on GitHub
                         </a>
                     </div>
-                    <!-- Project 4 -->
                     <div class="bg-gray-800 rounded-xl p-6 border border-gray-700 hover:border-blue-500 transition-colors duration-300">
                         <h3 class="text-xl font-semibold text-white mb-2">AgroWise</h3>
                         <p class="text-secondary mb-3">
@@ -184,14 +213,12 @@
                             <i class="fab fa-github mr-1"></i> View on GitHub
                         </a>
                     </div>
-
-                    
-                    <!-- Add more projects as needed -->
                 </div>
             </section>
+        </div>
 
-            <!-- Experience Section -->
-            <section id="experience" class="card rounded-2xl p-6 sm:p-8 border border-gray-800 shadow-md">
+        <div id="experience" class="tab-content hidden">
+            <section class="card rounded-2xl p-6 sm:p-8 border border-gray-800 shadow-md">
                 <h2 class="text-2xl font-bold text-white mb-4">Experience</h2>
                 <div class="space-y-8">
                     <div class="relative pl-6">
@@ -235,9 +262,10 @@
                     </div>
                 </div>
             </section>
+        </div>
 
-            <!-- Education Section -->
-            <section id="education" class="card rounded-2xl p-6 sm:p-8 border border-gray-800 shadow-md">
+        <div id="education" class="tab-content hidden">
+            <section class="card rounded-2xl p-6 sm:p-8 border border-gray-800 shadow-md">
                 <h2 class="text-2xl font-bold text-white mb-4">Education</h2>
                 <div class="space-y-4">
                     <div class="relative pl-6">
@@ -254,8 +282,41 @@
                     </div>
                 </div>
             </section>
+        </div>
 
-        </main>
-    </div>
+    </main>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const tabs = document.querySelectorAll('.tab-btn');
+            const sections = document.querySelectorAll('.tab-content');
+            const defaultTabId = 'projects';
+
+            function showTab(tabId) {
+                // Hide all sections and deactivate all buttons
+                sections.forEach(section => section.classList.add('hidden'));
+                tabs.forEach(tab => tab.classList.remove('active-tab', 'bg-blue-600', 'text-white'));
+                
+                // Show the selected section and activate the corresponding button
+                const selectedSection = document.getElementById(tabId);
+                const selectedTab = document.querySelector(`.tab-btn[data-tab="${tabId}"]`);
+
+                if (selectedSection && selectedTab) {
+                    selectedSection.classList.remove('hidden');
+                    selectedTab.classList.add('active-tab', 'bg-blue-600', 'text-white');
+                }
+            }
+
+            tabs.forEach(tab => {
+                tab.addEventListener('click', () => {
+                    const tabId = tab.getAttribute('data-tab');
+                    showTab(tabId);
+                });
+            });
+
+            // Show the default tab on page load
+            showTab(defaultTabId);
+        });
+    </script>
 </body>
 </html>
