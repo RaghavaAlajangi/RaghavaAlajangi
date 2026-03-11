@@ -18,8 +18,8 @@ AI/ML Engineer | MLOps | Azure Certified | Computer Vision
 ---
 
 ## 🚀 About Me
-🔹 AI/ML Engineer with **3.5+ years** of experience in applying **AI, Machine Learning and Deep Learning** algorithms in **Medical Diagnostics and Imaging**, and **Industrial Image Processing**.  
-🔹 Eager to tackle problems across **data-driven applications**, **image & video processing**, **Computer Vision**, **GANs**, **LLMs**, and **AI Agents**.   
+🔹 AI/ML Engineer with **4+ years** of experience in applying **AI, Machine Learning and Deep Learning** algorithms in **Medical Diagnostics and Imaging**, and **Industrial Image Processing**.  
+🔹 Eager to tackle problems across **data-driven applications**, **image & video processing**, **Computer Vision**, **GenAI**, **LLMs**, and **AI Agents**. 
 🔹 Passionate about **AI-driven automation, **MLOps**, cloud computing, and scalable AI architectures**.  
 🔹 Experienced in **research-driven AI development**, **MLOps pipelines**, and **full-stack web applications**.  
 🔹 Actively contributing to **open-source** projects by maintaining **OOPS principles**, **high code standards (PEP8)**, and **semantic versioning**   
@@ -29,16 +29,17 @@ AI/ML Engineer | MLOps | Azure Certified | Computer Vision
 ## 💡 What I Know   
 🔹 **Programming** - Python, C++  
 🔹 **Machine Learning & Deep Learning** – Computer Vision, AI Model Training, Optimization  
+🔹 **GenAI Infrastructure**: LangGraph, LangChain, PydanticAI, Model Context Protocol (MCP), Agentic Workflows, Redis, RAG, Vector Databases (FAISS, Milvus, Qdrant)
 🔹 **MLOps & AI Infrastructure** – MLflow, DVC, CI/CD, Model Tracking, AI Pipelines   
 🔹 **Cloud & DevOps** – Azure ML, Docker, GitLab CI/CD, GitHub Actions      
-🔹 **Backend Development & Databases** – FastAPI, Flask, API Development, PostgreSQL, SQL   
+🔹 **Backend Development & Databases** – FastAPI, Flask, API Development, PostgreSQL, MangoDB   
 🔹 **HPC & AI Scaling** – AI training on HPC clusters, optimizing inference with TensorRT & ONNX   
 🔹 **Full-Stack Web & GUI Development** – Dash, Streamlit, Flask Apps, PyQt   
 
 ---
 
 ## 🔥 What I am Actively Learning         
-🔹 **LLM Development & API Deployment** – Fintuning LLMs, creating RAG-based LLM chatbots for specific use cases     
+🔹 **LLM Development & API Deployment** – Fintuning LLMs and embedding models, Agentic AI systems     
 🔹 **AI Model Research** – Working on forecasting models, agent-based models, and ranking models      
 🔹 **Cloud Technologies** – Expanding skills in **Azure DevOps**      
 🔹 **Infrastructure as Code (IaC) & DevOps** – Strengthening **Kubernetes** and **Terraform**      
