@@ -19,7 +19,7 @@ AI/ML Engineer | MLOps | Azure Certified | Computer Vision
 
 ## 🚀 About Me
 🔹 AI/ML Engineer with **4+ years** of experience in applying **AI, Machine Learning and Deep Learning** algorithms in **Medical Diagnostics and Imaging**, and **Industrial Image Processing**.  
-🔹 Eager to tackle problems across **data-driven applications**, **image & video processing**, **Computer Vision**, **GenAI**, **LLMs**, and **AI Agents**. 
+🔹 Eager to tackle problems across **data-driven applications**, **image & video processing**, **Computer Vision**, **GenAI**, **LLMs**, and **AI Agents**.   
 🔹 Passionate about **AI-driven automation, **MLOps**, cloud computing, and scalable AI architectures**.  
 🔹 Experienced in **research-driven AI development**, **MLOps pipelines**, and **full-stack web applications**.  
 🔹 Actively contributing to **open-source** projects by maintaining **OOPS principles**, **high code standards (PEP8)**, and **semantic versioning**   
@@ -29,7 +29,7 @@ AI/ML Engineer | MLOps | Azure Certified | Computer Vision
 ## 💡 What I Know   
 🔹 **Programming** - Python, C++  
 🔹 **Machine Learning & Deep Learning** – Computer Vision, AI Model Training, Optimization  
-🔹 **GenAI Infrastructure**: LangGraph, LangChain, PydanticAI, Model Context Protocol (MCP), Agentic Workflows, Redis, RAG, Vector Databases (FAISS, Milvus, Qdrant)
+🔹 **GenAI Infrastructure**: LangGraph, LangChain, PydanticAI, Model Context Protocol (MCP), Agentic Workflows, Redis, RAG, Vector Databases (FAISS, Milvus, Qdrant)   
 🔹 **MLOps & AI Infrastructure** – MLflow, DVC, CI/CD, Model Tracking, AI Pipelines   
 🔹 **Cloud & DevOps** – Azure ML, Docker, GitLab CI/CD, GitHub Actions      
 🔹 **Backend Development & Databases** – FastAPI, Flask, API Development, PostgreSQL, MangoDB   
